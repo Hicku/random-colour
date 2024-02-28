@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  margin-left: 2px;
+}
+
+.colour-container {
+  background-color: aqua;
+  height: 100%;
+}
+
+.colour-type-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.random-colour-container {
+  display: flex;
+  justify-content: center;
+}
