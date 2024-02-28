@@ -1,13 +1,17 @@
 import Button from "./Button";
 
-export default function Buttons({ onGetColour }) {
+export default function Buttons({
+  onGetColour,
+  onHandleRGBFalse,
+  onHandleRGBTrue,
+}) {
   return (
     <div className="buttons">
       <div>
-        <Button>Create HEX colour</Button>
+        <Button onClick={onHandleRGBFalse}>Create HEX colour</Button>
       </div>
       <div>
-        <Button>Create RGB colour</Button>
+        <Button onClick={onHandleRGBTrue}>Create RGB colour</Button>
       </div>
       <div>
         <Button onClick={onGetColour}>Generate random colour</Button>
