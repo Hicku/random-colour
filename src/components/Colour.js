@@ -1,11 +1,11 @@
-export default function Colour() {
+export default function Colour({ curColour }) {
   return (
     <div className="colour-container">
       <div className="colour-type-container">
         <div>Colour type</div>
       </div>
       <div className="random-colour-container">
-        <div>Random colour</div>
+        <div>{`#${curColour}`}</div>
       </div>
     </div>
   );

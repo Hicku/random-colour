@@ -2,6 +2,10 @@ body {
   height: 100vh;
 }
 
+/* .App {
+  background-color: aqua;
+} */
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -13,7 +17,6 @@ body {
 }
 
 .colour-container {
-  background-color: aqua;
   height: 100%;
 }
 

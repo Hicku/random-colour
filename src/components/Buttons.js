@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-export default function Buttons() {
+export default function Buttons({ onGetColour }) {
   return (
     <div className="buttons">
       <div>
@@ -10,7 +10,7 @@ export default function Buttons() {
         <Button>Create RGB colour</Button>
       </div>
       <div>
-        <Button>Generate random colour</Button>
+        <Button onClick={onGetColour}>Generate random colour</Button>
       </div>
     </div>
   );
